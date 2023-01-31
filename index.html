@@ -1,12 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/d4fa596027.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MY Port</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #full-page {
+            width: 100%;
+        }
+        #intro-section {
+            height: 500px;
+            width: 100%;
+            background-color: rgb(103, 103, 190);
+        }
+        #navbar {
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            height: 70px;
+        }
+        #navbar-left {
+            width: 48%;
+            display: flex;
+            justify-content: left;
+        }
+        #navbar-left h1 {
+            padding: 13px;
+        }
+        #navbar-left p {
+            padding: 25px 20px;
+            font-weight: 800;
+        }
+        #navbar-right {
+            width: 25%;
+            display: flex;
+            justify-content: right;
+            padding: 14px;
+        }
+        #navbar-right > div:nth-child(1){
+            background-color: white;
+            height: 40px;
+            width: 11%;
+            color: grey;
+            border-radius: 20px;
+            margin-right: 7%;
+        }
+        #navbar-right > div:nth-child(1) i {
+            padding: 12px;
+        }
+        #navbar-right > div:nth-child(2) {
+            width: 45%;
+        }
+        #navbar-right button {
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: rgb(103, 103, 190);
+            color: white;
+            font-size: 16px;
+            height: 40px;
+            width: 100%;
+            cursor: pointer;
+        }
+        #my-info {
+            display: flex;
+            justify-content: space-around;
+        }
+        #my-info > div {
+            width: 35%; 
+            height: 380px;   
+        }
+        #my-info-left > div:nth-child(1) {
+            display: flex;
+            margin-top: 140px;
+            margin-bottom: 20px;
+        }
+        #my-info-left > div:nth-child(1) > div:nth-child(1)  {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            background-color: white;
+            margin-right: 20px;
+        } 
+        
+        #my-info-left > div:nth-child(1) > div:nth-child(2)  {
+            width: 200px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: white;
+        } 
+        #my-info-left > div:nth-child(1) > div:nth-child(2) p  {
+            padding: 10px;
+            font-size: 28px;
+            font-weight: 800;
+        } 
+        #my-info-left > div:nth-child(2) {
+            background-color: white;
+            width: 400px;
+            border-radius: 25px;
+            height: 50px;
+            margin-bottom: 20px;
+        }
+        #my-info-left > div:nth-child(2) h2 {
+            padding: 11px;
+            color: rgb(57, 158, 57);
+        }
+        #my-info-left > div:nth-child(3) {
+            background-color: rgb(70, 170, 170);
+            width: 100px;
+            border-radius: 15px;
+            height: 30px;
+        }
+        #my-info-left > div:nth-child(3) h4{
+            padding: 6px;
+            color: white;
+        }
+        #my-info-right > div {
+            width: 250px;
+            height: 250px;
+            border: 1px solid red;
+            border-radius: 125px;
+            background-color: white;
+            margin-top: 30px;
+            margin-left: 150px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="full-page">
+        <div id="intro-section">
+            <div id="navbar">
+                <div id="navbar-left">
+                    <div>
+                        <h1>My Name</h1>
+                    </div>
+                    <div>
+                        <p>HOME</p>
+                    </div>
+                    <div>
+                        <p>ABOUT</p>
+                    </div>
+                    <div>
+                        <p>SERVICE</p>
+                    </div>
+                    <div>
+                        <p>PROJECT</p>
+                    </div>
+                    <div>
+                        <p>CONTACT</p>
+                    </div>
+                </div>
+                <div id="navbar-right">
+                    <div>
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                    <div>
+                        <button>120-240</button>
+                    </div>
+                </div>
+            </div>
+            <div id="my-info">
+                <div id="my-info-left"> 
+                    <div>
+                        <div><img /></div>
+                        <div><p>Hello Friends !</p></div>
+                    </div>
+                    <div><h2>I'm available for freelancing work !</h2></div>
+                    <div> <h4>let's begin</h4></div>
+                </div>
+                <div id="my-info-right">
+                    <div>
+                        <img src="" alt="my-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 </body>
 </html>
