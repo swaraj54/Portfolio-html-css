@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #my-info {
+            width: 100%;
+            height: 500px;
+            background-color: rgb(192, 185, 185);
+            display: flex;
+            justify-content: center;
+        }
+
+        #my-info-left,
+        #my-info-right {
+            height: 300px;
+            width: 40%;
+            margin-top: 100px;
+        }
+
+        #my-info-left {
+            margin-right: 3%;
+            border: 1px solid grey;
+        }
+
+        #my-info-left>div:nth-child(1) {
+            width: 100%;
+            height: 20%;
+            /* 60px */
+            /* border: 1px solid purple; */
+        }
+
+        #my-info-left>div:nth-child(1)>h3 {
+            margin-left: 30px;
+            font-size: 28px;
+            font-weight: 800;
+            padding: 16px 0px;
+            /* 16 + 16 + 28 = 60 */
+        }
+
+        table {
+            border: 1px solid red;
+            width: 100%;
+            height: 80%;
+            border-collapse: collapse;
+        }
+
+        #my-info-left p {
+            margin-left: 20px;
+
+        }
+
+        /* #my-info-left p:nth-child(3),p:nth-child(4),p:nth-child(7),p:nth-child(8){
+            background-color: white;
+        } */
+
+
+        table tr td:nth-child(1) {
+            /* border: 1px solid blue; o*/
+            color: rgb(23, 107, 23);
+            font-weight: 800;
+            font-size: 24px;
+            width: 25%;
+            height: 59px;
+            border: 1px solid black;
+        }
+
+        table tr td:nth-child(2) {
+            margin-left: 20px;
+            /* border: 1px solid blue; o*/
+            color: rgb(1, 8, 1);
+            font-weight: 800;
+            font-size: 24px;
+            height: 59px;
+            border: 1px solid black;
+        }
+
+        table tr:nth-child(2),
+        tr:nth-child(4) {
+            background-color: white;
+
+        }
+
+        #my-info-right>div {
+            display: flex;
+            height: 50%;
+        }
+
+        #my-info-right>div>div {
+            width: 50%;
+        }
+
+        #my-info-right>div:nth-child(1) {
+            border-bottom: 1px solid black;
+        }
+
+        #my-info-right>div>div:nth-child(1) {
+            border-right: 1px solid black;
+        }
+        #my-info-right>div>div:nth-child(2) {
+            margin-left: 30px;
+        }
+        #my-info-right h1 {
+            font-size: 52px;
+            font-weight: bold;
+        }
+        #my-info-right p {
+            color: rgb(23, 107, 23);
+        }
+        #my-info-right > div:nth-child(2) > div > h1 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="my-info">
+        <div id="my-info-left">
+            <div>
+                <h3>Information</h3>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <p>Name</p>
+                        </td>
+                        <td>
+                            <p>joshua</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Birthday</p>
+                        </td>
+                        <td>
+                            <p>2-20-2002</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Phone</p>
+                        </td>
+                        <td>
+                            <p>123456789</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Email</p>
+                        </td>
+                        <td>
+                            <p>abc@gmail.com</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="my-info-right">
+            <div>
+                <div>
+                    <h1>20+</h1>
+                    <p>Years of experience..</p>
+                </div>
+                <div>
+                    <h1>21+</h1>
+                    <p>Years of experience..</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h1>22+</h1>
+                    <p>Years of experience..</p>
+                </div>
+                <div>
+                    <h1>23+</h1>
+                    <p>Years of experience..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
